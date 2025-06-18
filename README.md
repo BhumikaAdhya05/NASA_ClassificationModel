@@ -49,7 +49,7 @@ The CMAPSS dataset includes multivariate time-series data from aircraft engines,
 To use the model:
 ```python
 import pickle
-with open('nasa_rf_model.pkl', 'rb') as file:
+with open('rf_model.pkl', 'rb') as file:
     model = pickle.load(file)
 prediction = model.predict(new_data)
 
